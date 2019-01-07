@@ -1,0 +1,158 @@
+\documentclass[20pt]{book}
+\usepackage[latin]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{blindtext}
+
+\usepackage{multicol}
+\setlength\columnsep{30pt}
+%Lettrine and Calligraphy
+\usepackage{lettrine} 
+\usepackage{yfonts}
+\usepackage{GoudyIn}
+\usepackage{calligra}
+
+\usepackage[utf8]{inputenc}
+\usepackage{erewhon}
+\usepackage{lipsum}
+
+\usepackage{pgffor}
+\usepackage[x11names]{xcolor}
+ 
+\renewcommand{\LettrineFontHook}{\color{VioletRed4}\GoudyInfamily{}}
+\LettrineTextFont{\itshape}
+\setcounter{DefaultLines}{6}%
+
+
+\begin{document}
+
+\LettrineTextFont{\itshape}
+\setcounter{DefaultLines}{5}
+\foreach \n in {0,...,30}{
+	\begin{multicols}{2}
+	\lettrine{A}lsdjxnvxncv
+	\blindtext[2][2]
+	\lettrine{R}kahfxnhfo
+	\blindtext[3][2]
+	\lettrine{E}sdlfjhljfljasféllxcnvh
+	\blindtext[3][3]
+	\end{multicols}
+}
+
+
+\renewcommand{\LettrineFontHook}{\color{orange}\GoudyInfamily{}}
+\LettrineTextFont{\itshape}
+\setcounter{DefaultLines}{5}%
+\foreach \n in {0,...,30}{
+	\begin{multicols}{2}
+	\lettrine{D}lsdjxnvxncv
+	\blindtext[2][2]
+	\lettrine{T}kahfxnhfo
+	\blindtext[3][2]
+	\lettrine{J}sdlfjhljfljasféllxcnvh
+	\blindtext[3][3]
+	\end{multicols}
+}
+
+\renewcommand{\LettrineFontHook}{\color{red}\GoudyInfamily{}}
+\LettrineTextFont{\itshape}
+\setcounter{DefaultLines}{5}
+
+\foreach \n in {0,...,20}{
+	\lettrine{C}ckowlasdjfmxmohjké
+	\blindtext[3][3]
+	\lettrine{B}pwohfdklshfjwr
+	\blindtext[3][3]
+	\lettrine{P}flasfjlasdfjdklsf
+	\Blindtext[2][3]
+}
+
+
+\foreach \n in {0,...,40}{
+
+	\begin{multicols}{2}
+	\lettrine{X}lsdnf,nvkhihsfhéàdfè
+	\blindtext[3][4]
+	\lettrine{I}kahfxaslkfjlxcno
+	\blindtext[4][2]
+	\lettrine{U}sdlfjhljfljasféllxcnvh
+	\blindtext[3][2]
+	\end{multicols}
+
+}
+
+\renewcommand{\LettrineFontHook}{\color{blue}}
+\LettrineTextFont{\itshape}
+\setcounter{DefaultLines}{3}%
+
+\foreach \n in {0,...,20}{
+	\lettrine{K}ckowlasdjfmxmohjké
+	\blindtext[2][1]
+	\lettrine{R}pwohfdklshfjwr
+	\blindtext[3][5]
+	\lettrine{L}djflasfjlasdfjdklsfl
+	\Blindtext[4][1]
+}
+
+
+\foreach \n in {0,...,40}{
+	\begin{multicols}{2}
+	\lettrine{D}lsdnf,nvkhihsfhéàdfè
+	\blindtext[3][3]
+	\lettrine{Z}kahfxaslkfjlxcno
+	\blindtext[3][2]
+	\lettrine{J}sdlfjhljfljasféllxcnvh
+	\blindtext[3][4]
+	\newpage
+	\end{multicols}
+}
+
+\renewcommand{\LettrineFontHook}{\calligra}
+\setcounter{DefaultLines}{9}%
+\LettrineTextFont{\itshape}
+\setlength{\DefaultNindent}{0em}
+
+\foreach \n in {0,...,40}{
+	\lettrine[findent=10.0em]{T}ckowlasdjfmxmohjké
+	\blindtext[3][4]
+	\lettrine[findent=9.0em]{W}pwohfdklshfjwr
+	\blindtext[3][5]
+	\lettrine[findent=6.0em]{Q}djflasfjlasdfjdklsfl
+	\Blindtext[1][2]
+}
+
+
+\renewcommand{\LettrineFontHook}{\calligra}
+\setcounter{DefaultLines}{7}%
+\LettrineTextFont{\itshape}
+\setlength{\DefaultNindent}{0em}
+\foreach \n in {0,...,20}{
+	\begin{multicols}{2}
+	\lettrine[findent=5.0em]{E}wdf
+	\blindtext[3][4]
+	\lettrine[findent=6.0em]{I}ka
+	\blindtext[4][3]
+	\lettrine[findent=7.0em]{F}sdl
+	\blindtext[4][4]
+	\newpage
+	\end{multicols}
+}
+
+
+\renewcommand{\LettrineFontHook}{\color{brown}\GoudyInfamily{}}
+\LettrineTextFont{\itshape}
+\setcounter{DefaultLines}{8}%
+
+\foreach \n in {0,...,40}{
+	\begin{multicols}{2}
+	\lettrine{S}lsdjxnvxncv
+	\blindtext[2][2]
+	\lettrine{L}kahfxnhfo
+	\blindtext[3][2]
+	\lettrine{V}sdlfjhljfljasfé   sdfklsfos
+	\blindtext[3][3]
+	\end{multicols}
+}
+
+
+
+\end{document}
